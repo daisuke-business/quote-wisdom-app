@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>偉人の名言アプリ</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell" aria-labelledby="app-title">
+      <section class="quote-panel">
+        <div class="badge">Daily Wisdom</div>
+        <h1 id="app-title">偉人の名言アプリ</h1>
+        <p class="lead">ボタンを押すたびに、歴史に残る言葉を1つ表示します。</p>
+
+        <div class="quote-card" aria-live="polite">
+          <p class="quote-mark">“</p>
+          <p id="quote-text" class="quote-text">
+            今日の一言を受け取ってみましょう。
+          </p>
+          <p id="quote-author" class="quote-author">ボタンを押してください</p>
+        </div>
+
+        <button id="quote-button" class="quote-button" type="button">
+          名言を表示する
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
